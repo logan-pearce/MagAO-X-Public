@@ -25,14 +25,16 @@ import argparse
 import warnings
 warnings.filterwarnings('ignore')
 
-Names = ['alf Sco', 'HD 214810A', 'HD 218434']
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--names', type=str, required=True, help='Supply the Simbad names')
 parser.add_argument('--saveas', type=str, help='Filename for catalog. Default = TCScatalog.cat')
 
 args = parser.parse_args()
-names = args.names
+Names = args.names.split(',')
+Names = [Names[i].replace("'","") for i in range(len(Names))]
+Names = [Names[i].replace("*","") for i in range(len(Names))]
+
 if args.saveas:
     saveas = args.saveas
 else:
