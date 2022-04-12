@@ -57,7 +57,7 @@ from astroquery.simbad import Simbad
 
 customSimbad = Simbad()
 customSimbad.add_votable_fields('otype','sptype','flux(V)','flux(R)','flux(I)','pmra','pmdec')
-cat = customSimbad.query_criteria('dec < -30 & Imag < 7',otype='Star')
+cat = customSimbad.query_criteria('dec < 0 & dec > -50 & Imag < 7',otype='Star')
 
 import warnings
 warnings.filterwarnings('ignore')
