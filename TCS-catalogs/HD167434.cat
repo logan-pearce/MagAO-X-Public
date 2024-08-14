@@ -1,0 +1,2 @@
+num	Name	RA	Dec	Equinox	pmra	pmdec	rotang	rot_mode	RA_probe1	Dec_probe1	equinox	RA_probe2	Dec_probe2	equinox 	epoch
+1	HD167434	18:15:56.8955	-17:46:06.896	2000.0	0.0003106666666666667	-0.000455	0	GRV	00:00:00.00	+00:00:00.0	2000.0	00:00:00.00	+00:00:00.0	2000.0	2000.0
