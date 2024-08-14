@@ -42,10 +42,10 @@ A complete bright AO stars catalog covering all RA's should be in this repo call
 
 ## Converting from filter magnitudes to magnitude in MagAO-X wavefront sensor bands
 
-This plot gives Gaia g magnitude into MagAO-X WFS bands as a color conversion as a function of spectral type.  So for a given spectral type, the WFS magnitude = Gaia g - color.
+This plot gives Gaia g magnitude into MagAO-X WFS bands as a color conversion as a function of spectral type.  So for a given spectral type, the WFS magnitude = Gaia g - color.  The models and scripts used to generate these curves are in the `MagAO-X-color-conversions` folder.
 
-<img src="figures/GaiaG_to_MagAO-X_WFS_color_conversion.png" width="700">
+<img src="MagAO-X-color-conversions/figures/GaiaG_to_MagAO-X_WFS_color_conversion.png" width="700">
 
-Color conversion for SDSS into MagAO-X WFS:
+Color conversion for SDSS into MagAO-X:
 
-<img src="figures/MagAOXfilters_toSDSSfilters_color_conversion.png" width="700">
+<img src="MagAO-X-color-conversions/figures/MagAOXfilters_toSDSSfilters_color_conversion.png" width="700">
